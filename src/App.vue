@@ -25,6 +25,9 @@
         </div>
         <div class="navbar-item">
           <div class="buttons">
+            <router-link class="button is-info" to="/oilchange">
+              <strong>Atomātisko kārbu eļļas maiņa</strong>
+            </router-link>
             <router-link class="button is-info" to="/cooling">
               <strong>Kondicionieru uzpilde</strong>
             </router-link>

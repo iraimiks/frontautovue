@@ -5,7 +5,9 @@ import SpecTrans from '../views/SpecTrans.vue'
 import CollingView from '../views/CoolingView.vue'
 import MotoView from '../views/MotoView.vue'
 import WorksView from '../views/WorksView.vue'
+import OilChange from '../views/OilChange.vue'
 import ShowItems from '../components/ShowItems.vue'
+
 const routes = [
   {
     path: '/',
@@ -41,6 +43,11 @@ const routes = [
     path: '/price',
     name: 'price',
     component: ShowItems
+  },
+  {
+    path: '/oilchange',
+    name: 'oilchange',
+    component: OilChange
   }
 ]
 
