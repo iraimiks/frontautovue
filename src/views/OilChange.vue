@@ -4,72 +4,62 @@
       <div class="columns">
         <div class="column box">
           <div class="content">
-            <h1>AutoBoost piedāvā MotulEvo priekšrocības gala patērētājiem</h1>
-
-            <h2>Jūsu priekšrocības īsumā:</h2>
-            <p>
-              Pilnīga transmisijas šķidruma nomaiņa palīdz noņemt piesārņojumu.
-              Tīrā eļļošanas ķēdē jaunais transmisijas šķidrums pilnībā sasniedz
-              savu potenciālu un nodrošina ilgstošus rezultātus.
-            </p>
-            <ol>
-              <li>
-                Vienmērīga pārnesumu pārslēgšana, uzlabots braukšanas komforts
-              </li>
-              <li>Aizsardzība pret nodilumu</li>
-              <li>Vērtību un funkciju uzturēšana</li>
-              <li>Vērtīgs ieguldījums</li>
-              <li>Degvielas ekonomijas ieguvums</li>
-            </ol>
-
-            <h2>
-              Perfekta atbilstība: transmisijas skalošana un šķidruma maiņa
-            </h2>
-
-            <h3>
-              Ir daudz praktisku iemeslu, kāpēc jums vajadzētu apvienot eļļas
-              maiņas pakalpojumu ar transmisijas skalošanu:
-            </h3>
+            <h1>AutoBoost piedāvā MotulEvo</h1>
+            <h2>VAI MAINĪT EĻĻU ĀTRUMKĀRBĀ?</h2>
 
             <p>
-              Tīrā transmisijā eļļa var pilnībā attīstīt savu veiktspēju un
-              palīdz aizsargāt transmisiju pret priekšlaicīgu nodilumu un
-              bojājumiem. Optimāla eļļošana padara pārnesumu pārslēgšanu ļoti
-              efektīvu un ērtu.
+              Vēl nesenā pagātnē automātisko kārbu eļļas maiņu veica retais.
+              Auto ražotāji par šādu nepieciešamību klientus neinformēja un
+              bieži apgalvoja, ka kārbas eļļa ir paredzēta visam kārbas mūžam.
+              Šis mīts arī šodien nav pilnībā zudis un vairums auto lietotāji
+              par šādu jautājumu sāk interesēties tikai tad, kad kārbas darbībā
+              parādījušās problēmas.
             </p>
 
-            <h3>
-              Ja pārnesumu pārslēgšanas veiktspēja ir pasliktinājusies,
-              profesionāls transmisijas serviss var atrisināt vai novērst šādas
-              problēmas:
-            </h3>
-
-            <ol>
-              <li>Aizkavēta pārnesumu pārslēgšana</li>
-              <li>Nepareiza pārnesumkārbas pārslēgšana</li>
-              <li>Transportlīdzekļa trīcēšana zem slodzes</li>
-              <li>Raustīšanās apstāšanās un stāvēšanas manevru laikā</li>
-            </ol>
-
-            <h3>Mūsu profesionālais servisa pakalpojums:</h3>
-
             <p>
-              Jūsu dubultā sajūga pārnesumkārbas (DCT), nepārtraukti mainīgās
-              pārnesumkārbas (CVT) vai automātiskās pārnesumkārbas (AT)
-              pārnesumu pārslēgšanas darbība ir nepārtraukti pasliktinājusies
-              pēc ilgstošas ​​intensīvas lietošanas? Vai tas kratās un raustas
-              apstāšanās un stāvēšanas manevru laikā? Jūsu transportlīdzeklis
-              atsakās ieslēgt ātrumu? Pārnesumu maiņu pavada slīpēšanas
-              troksnis? Biežāk tas ir piesārņojums un nodilums, kas pasliktina
-              pārnesumu pārslēgšanas veiktspēju. Regulārs apkopes grafiks,
-              tostarp transmisijas apkope, ir galvenais, lai jūsu automašīna
-              kalpotu ilgāk.
+              No savas pieredzes varam droši teikt, ka jebkura transmisijas eļļa
+              laika gaitā zaudē savas īpašības un berzes rezultātā piesārņojas.
+              Mūsdienīgi kārbu modeļi paliek arvien komplicētāki, ar lielāku
+              pārnesumu skaitu. Arī šis apstāklis negatīvi ietekmē ātrumkārbas
+              eļļas darba mūžu. Šodien liela daļa auto ražotāju iesaka eļļas
+              maiņas intervālu jau no 60 000 līdz 80 000 km. Dubultsajūga (DSG)
+              un variātora (CVT) tipa kārbām, as tiek ekspluatētas pilsētas
+              režīmā, pat 40 000 km. Balstoties uz mūsu ilggadējo pieredzi un
+              daudziem pētījumiem, mēs rekomendējam 60 000 km ciklu un pat
+              īsāku, ja auto tiek ekspluatēts smagos apstākļos.
             </p>
+            <h2>Dinamiskā eļļas maiņa ar skalošanu</h2>
             <p>
-              Uzlabota pārnesumu pārslēgšana padara braukšanu vieglāku, ērtāku
-              un palielina kopējo efektivitāti. Tāpēc mēs iesakām regulāri veikt
-              transmisijas servisu, lai aizsargātu transmisiju, palielinātu tās
-              kalpošanas laiku un uzlabotu braukšanas pieredzi.
+              Mainot kārbas eļļu, nolejot veco eļļu un piepildot kārbu ar jaunu
+              eļļu, var nomainīt 60-70% eļļas, atkarībā no konkrētā modeļa
+              specifikas. Pārējā eļļa paliek kārbas hidrotransformātorā un
+              hidrauliskajā vadības blokā. Šāda metode ir pieņemama, jo jaunā
+              eļļa absorbē veco piesārņojumu un eļļa atgūst nepieciešamās
+              īpašības, taču jārēķinās ar īsāku darba ciklu. Veicot eļļas maiņu
+              ar skalošanas metodi, ir iespējams nomainīt eļļu tuvu 100%, kas
+              neapšaubāmi ir labāks risinājums un nozīmē garāku jaunās eļļas
+              darba ciklu. Taču, jāņem vērā, ka ne visiem modeļiem var tikt
+              pielietota skalošanas metode iekšējā filtra dēļ, kuru var nomainīt
+              tikai izjaucot kārbu. Šiem modeļiem mēs neveicam skalošanu, bet,
+              izmantojot specializēto eļļas maiņas iekārtu, eļļu ir iespējams
+              nomainīt pilnībā.
+            </p>
+
+            <p>
+              Ja automātiskajā ātrumkārbā jau ir parādījušās problēmas, tad
+              eļļas maiņa noteikti nedos nekādus uzlabojumus. Reizēm var būt
+              īslaicīgs pozitīvs efekts, bet problēmas atgriezīsies, visticamāk,
+              vēl smagākā formā, jo jaunā eļļa vienlaicīgi ir arī ļoti labs
+              mazgāšanas līdzeklis, kas izskalo visus netīrumus un diluma
+              daļiņas. Tāpēc pirms eļļas maiņas AUTOBOOST tehniķi veic kārbas
+              diagnostiku un novērtē eļļas stāvokli un tikai tad pieņem lēmumu,
+              vai eļļas maiņa ir pamatota. Veicot eļļas maiņu, vienmēr tiek
+              mainīts eļļas filtrs, arī ārējais, ja tāds ir, kartera blīve, ja
+              konkrētajam modelim tāda ir paredzēta, un atsevišķiem modeļiem arī
+              karteris. Neatkarīgi no tā, kāda eļļas maiņas metode tiek
+              pielietota, tas viennozīmīgi pagarina kārbas darba mūžu un
+              samazina risku veikt dārgu kārbas remontu automašīnas
+              ekspluatācijas laikā.
             </p>
           </div>
         </div>
