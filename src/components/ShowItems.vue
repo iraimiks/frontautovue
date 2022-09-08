@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container" style="background-color: #F6F6FF">
     <section class="section">
       <div class="columns">
         <div class="column is-half">
@@ -81,4 +81,5 @@ export default {
 };
 </script>
 <style>
+
 </style>

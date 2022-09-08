@@ -1,56 +1,73 @@
 <template>
-  <h2 class="title is-2">Izvēlieties galveno pakalpojumu</h2>
-  <div class="select is-medium">
-    <select v-model="selected">
-      <option v-for="item in selectionItems" :value="item">
-        {{ item.name }} {{ item.price + ",00" }}
-      </option>
-    </select>
+  <h2 class="title is-3">Izvēlieties galveno pakalpojumu</h2>
+  <div class="columns">
+    <div class="column">
+      <div class="select">
+        <select v-model="selected">
+          <option v-for="item in selectionItems" :value="item">
+            {{ item.name }} {{ item.price + ",00" }}
+          </option>
+        </select>
+      </div>
+    </div>
+    <div class="column">
+      <div class="dropdown" v-bind:class="{ 'is-active': showDropDown }">
+        <div class="dropdown-trigger">
+          <button
+            class="button"
+            aria-haspopup="true"
+            aria-controls="dropdown-menu"
+            @click="dropMenu(showDropDown)"
+          >
+            <span>Izvēlieties papildu opcijas</span>
+            <span class="icon">
+              <i class="fas fa-angle-down" aria-hidden="true"></i>
+            </span>
+          </button>
+        </div>
+        <div class="dropdown-menu" id="dropdown-menu" role="menu">
+          <div
+            class="dropdown-content"
+            style="width: 350px; max-height: 300px; overflow-y: auto"
+          >
+            <div class="dropdown-item" v-for="item in items" v-bind:key="item">
+              <div class="columns is-mobile">
+                <div class="column">
+                  {{ item.name }} {{ item.price + ",00" }}
+                </div>
+                <div class="column is-one-fifth">
+                  <input
+                    type="checkbox"
+                    class="large"
+                    v-bind:id="item.id"
+                    :value="item"
+                    v-model="checked"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
-  <h2 class="title is-3">Izvēlieties papildu opcijas</h2>
-  <table class="table">
-    <thead>
-      <tr>
-        <th>Pakalpojums</th>
-        <th>Cena (Euro)</th>
-        <th>Atlasīt</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr v-for="item in items" v-bind:key="item">
-        <td>
-          {{ item.name }}
-        </td>
-        <td>
-          {{ item.price + ",00" }}
-        </td>
-        <td>
-          <input
-            type="checkbox"
-            class="large"
-            v-bind:id="item.id"
-            :value="item"
-            v-model="checked"
-          />
-        </td>
-      </tr>
-    </tbody>
-  </table>
+
   <div class="box">
     <ul>
       <h2 class="title is-3">Galvenais pakalpojums</h2>
-      <li v-if="!!selected.name">{{ selected.name }} € {{ selected.price }},00</li>
+      <li v-if="!!selected.name">
+        {{ selected.name }} € {{ selected.price }},00
+      </li>
       <li v-else>Nav izvēlēts</li>
-      <br>
+      <br />
       <h2 class="title is-3">Papildus opcijas</h2>
       <li v-for="item in listItems" v-bind:key="item">
         {{ item.name }} € {{ item.price }},00
       </li>
       <li v-if="listItems.length === 0">Nav izvēlēts</li>
-      <br>
+      <br />
       <li><strong>Kopā:</strong> € {{ sum + ",00" }}</li>
     </ul>
-    
   </div>
 </template>
 <script>
@@ -58,6 +75,7 @@ export default {
   name: "TableData",
   data() {
     return {
+      showDropDown: false,
       checked: [],
       selected: [],
     };
@@ -66,6 +84,11 @@ export default {
     items: Array,
     selectionItems: Array,
   },
+  methods: {
+    dropMenu(check) {
+      this.showDropDown = !check;
+    },
+  },
   computed: {
     sum() {
       let rawObject = JSON.parse(JSON.stringify(this.checked));
@@ -73,7 +96,7 @@ export default {
       let checkSelectPrice = 0;
       if (rawPriceSelected.length !== 0) {
         checkSelectPrice = rawPriceSelected.price;
-      } 
+      }
       let sum = checkSelectPrice;
       for (let i = 0; i < rawObject.length; i++) {
         sum += rawObject[i].price;
