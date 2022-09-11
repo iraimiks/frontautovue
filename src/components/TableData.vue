@@ -27,9 +27,7 @@
         </div>
         <div class="dropdown-menu" id="dropdown-menu" role="menu">
           <div
-            class="dropdown-content"
-            style="width: 350px; max-height: 300px; overflow-y: auto"
-          >
+            class="dropdown-content drop-box-style">
             <div class="dropdown-item" v-for="item in items" v-bind:key="item">
               <div class="columns is-mobile">
                 <div class="column">
@@ -114,5 +112,11 @@ export default {
 input.large {
   width: 40px;
   height: 30px;
+}
+.drop-box-style {
+  width: 350px;
+  max-height: 340px;
+  overflow-y: auto;
+  border: thin solid;
 }
 </style>

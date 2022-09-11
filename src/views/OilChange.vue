@@ -65,7 +65,7 @@
         </div>
         <div class="column">
           <div class="box">
-            <div class="columns">
+            <div class="columns" style="background-color: #feecf0">
               <div class="column">
                 <figure class="image">
                   <img src="@/assets/oilgear/motul.png" />
@@ -82,7 +82,7 @@
                 </figure>
               </div>
             </div>
-            <div class="columns">
+            <div class="columns" style="background-color: #feecf0">
               <div class="column">
                 <figure class="image">
                   <img src="@/assets/oilgear/mqdefault.jpg" />
