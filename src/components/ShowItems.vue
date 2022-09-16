@@ -1,8 +1,8 @@
 <template>
-  <div class="container" style="background-color: #F6F6FF">
+  <div class="container" style="background-color: #f6f6ff">
     <section class="section">
       <div class="columns">
-        <div class="column is-half">
+        <div class="column  is-one-third ">
           <div class="box">
             <article class="media">
               <div class="media-content">
@@ -13,9 +13,9 @@
               </div>
             </article>
           </div>
-          <TableData :items="itemsBig" :selectionItems="items" />
         </div>
       </div>
+      <TableData :items="itemsBig" :selectionItems="items" />
     </section>
   </div>
 </template>
@@ -81,5 +81,4 @@ export default {
 };
 </script>
 <style>
-
 </style>

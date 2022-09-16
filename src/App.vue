@@ -106,5 +106,8 @@ export default {
 }
 </script>
 <style lang="scss">
+$dropdown-menu-min-width: 38vw;
+
+
 @import "../node_modules/bulma";
 </style>

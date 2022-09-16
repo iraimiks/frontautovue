@@ -1,7 +1,7 @@
 <template>
-  <h2 class="title is-3">Izvēlieties galveno pakalpojumu</h2>
   <div class="columns">
     <div class="column">
+      <h2 class="title is-3">Izvēlieties galveno pakalpojumu</h2>
       <div class="select">
         <select v-model="selected">
           <option v-for="item in selectionItems" :value="item">
@@ -11,23 +11,28 @@
       </div>
     </div>
     <div class="column">
-      <div class="dropdown" v-bind:class="{ 'is-active': showDropDown }">
-        <div class="dropdown-trigger">
+      <h2 class="title is-3">Izvēlieties papildu opcijas</h2>
+      <div
+        class="dropdown"
+        style="width: 100%"
+        v-bind:class="{ 'is-active': showDropDown }"
+      >
+        <div class="dropdown-trigger" style="width: 100%">
           <button
             class="button"
             aria-haspopup="true"
             aria-controls="dropdown-menu"
             @click="dropMenu(showDropDown)"
+            style="display: flex; width: 100%; justify-content: space-between"
           >
-            <span>Izvēlieties papildu opcijas</span>
+            <div style="display: block; max-width: 100%"></div>
             <span class="icon">
               <i class="fas fa-angle-down" aria-hidden="true"></i>
             </span>
           </button>
         </div>
         <div class="dropdown-menu" id="dropdown-menu" role="menu">
-          <div
-            class="dropdown-content drop-box-style">
+          <div class="dropdown-content drop-box-style">
             <div class="dropdown-item" v-for="item in items" v-bind:key="item">
               <div class="columns is-mobile">
                 <div class="column">
@@ -114,9 +119,11 @@ input.large {
   height: 30px;
 }
 .drop-box-style {
-  width: 350px;
+
+  max-width: 100%;
   max-height: 340px;
   overflow-y: auto;
   border: thin solid;
 }
+
 </style>
