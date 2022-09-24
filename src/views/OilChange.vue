@@ -2,9 +2,9 @@
   <div class="container mt-6">
     <section class="section">
       <div class="columns">
-        <div class="column box">
-          <div class="content">
-            <h1>AutoBoost piedāvā MotulEvo</h1>
+        <div class="column">
+          <div class="box">
+                      <div class="content">
             <h2>VAI MAINĪT EĻĻU ĀTRUMKĀRBĀ?</h2>
 
             <p>
@@ -62,37 +62,28 @@
               ekspluatācijas laikā.
             </p>
           </div>
+          </div>
+
         </div>
+
         <div class="column">
           <div class="box">
-            <div class="columns" style="background-color: #feecf0">
+                        <div class="columns" style="background-color: #feecf0">
               <div class="column">
                 <figure class="image">
                   <img src="@/assets/oilgear/motul.png" />
                 </figure>
               </div>
+            </div>
+            <div class="columns" style="background-color: #feecf0">
               <div class="column">
                 <figure class="image">
                   <img src="@/assets/oilgear/home-evo-maschine-2019_l.png" />
                 </figure>
               </div>
-              <div class="column">
-                <figure class="image">
-                  <img src="@/assets/oilgear/1img.jpg" />
-                </figure>
-              </div>
-            </div>
-            <div class="columns" style="background-color: #feecf0">
-              <div class="column">
-                <figure class="image">
-                  <img src="@/assets/oilgear/mqdefault.jpg" />
-                </figure>
-              </div>
-              <div class="column"></div>
-              <div class="column"></div>
             </div>
           </div>
-        </div>
+          </div>
       </div>
     </section>
   </div>
