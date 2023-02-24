@@ -1,4 +1,7 @@
 <template>
+  <h2 class="is-size-2 has-text-centered m-5">
+    Chiptuninga cenrādis
+  </h2>
   <div class="columns">
     <div class="column">
       <h2 class="title is-3">Izvēlieties galveno pakalpojumu</h2>
