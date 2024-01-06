@@ -3,19 +3,21 @@
     <div class="container is-fullhd">
       <section class="hero is-large">
         <div class="hero-body">
-            <div class="columns">
-              <div class="column is-8 shadow-text">
-                <h3 class="is-size-3 has-text-white">Mūsu komanda piedāvā bezmaksas datora diagnostikas pakalpojumu, lai
-                  nodrošinātu, ja jūsu auto vienmēr ir drošībā. <strong class="has-text-white">Pieraksties tagat!</strong></h3>
-                <br>
-              </div>
-            </div>
-            <div class="columns">
-                <div class="column">
-                  <a href="https://wa.me/+37127015660" class="button is-large is-info is-responsive"><i class="fas fa-mobile-alt p-2"></i>PIETEIKTIES BEZMAKSAS DIAGNOSTIKAI</a>
-                </div>
+          <div class="columns">
+            <div class="column is-8 shadow-text">
+              <h3 class="is-size-3 has-text-white">Mūsu komanda piedāvā bezmaksas datora diagnostikas pakalpojumu, lai
+                nodrošinātu, ka jūsu auto vienmēr ir drošībā. <strong class="has-text-white">Pieraksties tagat!</strong>
+              </h3>
+              <br>
             </div>
           </div>
+          <div class="columns">
+            <div class="column">
+              <a href="https://wa.me/+37127015660" class="button is-large is-info is-responsive"><i
+                  class="fas fa-mobile-alt p-2"></i>PIETEIKTIES BEZMAKSAS DIAGNOSTIKAI</a>
+            </div>
+          </div>
+        </div>
       </section>
     </div>
   </div>
@@ -35,14 +37,17 @@ export default {
   background-attachment: fixed;
   background-size: cover;
 }
+
 .responsive-image {
   max-width: 100%;
   height: auto;
-  display: block; /* Removes extra space below inline images */
-  margin: 0 auto; /* Centers the image */
-}
-.shadow-text {
-  background-color: rgba(75, 145, 182, 0.15); /* Red color with 50% transparency */
+  display: block;
+  /* Removes extra space below inline images */
+  margin: 0 auto;
+  /* Centers the image */
 }
 
-</style>
+.shadow-text {
+  background-color: rgba(75, 145, 182, 0.15);
+  /* Red color with 50% transparency */
+}</style>

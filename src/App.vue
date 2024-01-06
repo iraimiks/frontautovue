@@ -80,15 +80,15 @@
               <div class="column is-1">
                 <i class="fas fa-map"></i>
               </div>
-              <div class="column"><a href="https://goo.gl/maps/U4BEsEMnbiAciRzq7" target="_blank">Liepājas iela 5,
-                  <strong>Ludza</strong></a></div>
+              <div class="column"><a href="https://maps.app.goo.gl/AoBPZwPzgWmhiRQ28" target="_blank">Varoņu iela 39,
+                  <strong>Rēzekne</strong></a></div>
             </div>
             <div class="columns is-mobile">
               <div class="column is-1">
                 <i class="fas fa-map"></i>
               </div>
-              <div class="column"><a href="https://maps.app.goo.gl/AoBPZwPzgWmhiRQ28" target="_blank">Varoņu iela 39,
-                  <strong>Rēzekne</strong></a></div>
+              <div class="column"><a href="https://goo.gl/maps/U4BEsEMnbiAciRzq7" target="_blank">Liepājas iela 5,
+                  <strong>Ludza</strong></a></div>
             </div>
           </div>
         </div>
