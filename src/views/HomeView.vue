@@ -1,31 +1,21 @@
 <template>
-  <div class="bg-img">
+  <div class="bg-img responsive-image">
     <div class="container is-fullhd">
       <section class="hero is-large">
-        <div class="hero-body ">
-          <p class="title has-text-white-ter">Serviss jūsu transportam</p>
-          <p class="subtitle has-text-white-ter">Piedāvājam dažādus servisa pakalpojumus</p>
-          <br>
-          <div class="is-flex">
+        <div class="hero-body">
             <div class="columns">
-              <div class="column">
-                <router-link class="button is-rounded" to="/auto"
-                  >AUTO</router-link
-                >
-              </div>
-              <div class="column">
-                <router-link class="button is-rounded" to="/spec">
-                  TRAKTORI UN SPECTRANSPORTS
-                </router-link>
-              </div>
-              <div class="column">
-                <router-link class="button is-rounded" to="/moto"
-                  >MOTO</router-link
-                >
+              <div class="column is-8 shadow-text">
+                <h3 class="is-size-3 has-text-white">Mūsu komanda piedāvā bezmaksas datora diagnostikas pakalpojumu, lai
+                  nodrošinātu, ja jūsu auto vienmēr ir drošībā. <strong class="has-text-white">Pieraksties tagat!</strong></h3>
+                <br>
               </div>
             </div>
+            <div class="columns">
+                <div class="column">
+                  <a href="https://wa.me/+37127015660" class="button is-large is-info is-responsive"><i class="fas fa-mobile-alt p-2"></i>PIETEIKTIES BEZMAKSAS DIAGNOSTIKAI</a>
+                </div>
+            </div>
           </div>
-        </div>
       </section>
     </div>
   </div>
@@ -39,10 +29,20 @@ export default {
 
 <style>
 .bg-img {
-  background: url("@/assets/bg-main.jpg");
+  background: url("@/assets/front_diagnostik.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
 }
+.responsive-image {
+  max-width: 100%;
+  height: auto;
+  display: block; /* Removes extra space below inline images */
+  margin: 0 auto; /* Centers the image */
+}
+.shadow-text {
+  background-color: rgba(75, 145, 182, 0.15); /* Red color with 50% transparency */
+}
+
 </style>
