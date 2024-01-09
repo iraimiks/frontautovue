@@ -5,7 +5,7 @@
         <div class="column">
           <div class="box">
             <div class="content">
-              <h2>VAI MAINĪT EĻĻU ĀTRUMKĀRBĀ?</h2>
+              <h2>AUTOBOOST servisa pievienojas Mercasol pretrūsas servisa centriem</h2>
 
               <p>
                 Vēl nesenā pagātnē automātisko kārbu eļļas maiņu veica retais.

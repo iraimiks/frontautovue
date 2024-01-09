@@ -1,19 +1,13 @@
 <template>
-
-      <div class="container mt-6" id="info">
-      <div class="content">
-        <h1 class="is-size-2 has-text-centered">Uzziniet sava automobiļa iespējas</h1>
-      </div>
-      
-      <iframe
-        src="https://files.mods.lv/index.php?option=com_rsform&view=rsform&formId=60&bgcolor=3e8ed0&fcolor=fff"
-        width="100%"
-        height="580px"
-        scrolling="auto"
-        allowfullscreen="allowfullscreen"
-      >
-      </iframe>
+  <div class="container mt-6" id="info">
+    <div class="content">
+      <h1 class="is-size-2 has-text-centered">Uzziniet sava automobiļa iespējas</h1>
     </div>
+
+    <iframe src="https://files.mods.lv/index.php?option=com_rsform&view=rsform&formId=60&bgcolor=3e8ed0&fcolor=fff"
+      width="100%" height="580px" scrolling="auto" allowfullscreen="allowfullscreen">
+    </iframe>
+  </div>
   <section class="section is-small is-link">
     <div class="content is-large">
       <h1 class="is-size-2 has-text-centered">Uzņēmuma pamatpakalpojumi</h1>
@@ -102,10 +96,7 @@
                 </div>
                 <div class="card-image">
                   <figure class="image">
-                    <img
-                      src="@/assets/section/4th-item.jpg"
-                      style="height: 100%"
-                    />
+                    <img src="@/assets/section/4th-item.jpg" style="height: 100%" />
                   </figure>
                 </div>
               </div>
@@ -124,10 +115,7 @@
                 </div>
                 <div class="card-image">
                   <figure class="image">
-                    <img
-                      src="@/assets/section/5th-item.jpg"
-                      style="height: 100%"
-                    />
+                    <img src="@/assets/section/5th-item.jpg" style="height: 100%" />
                   </figure>
                 </div>
               </div>
@@ -146,10 +134,7 @@
                 </div>
                 <div class="card-image">
                   <figure class="image">
-                    <img
-                      src="@/assets/section/6th-item.jpg"
-                      style="height: 100%"
-                    />
+                    <img src="@/assets/section/6th-item.jpg" style="height: 100%" />
                   </figure>
                 </div>
               </div>
@@ -170,10 +155,7 @@
                 </div>
                 <div class="card-image">
                   <figure class="image">
-                    <img
-                      src="@/assets/section/1st-item.jpg"
-                      style="height: 100%"
-                    />
+                    <img src="@/assets/section/1st-item.jpg" style="height: 100%" />
                   </figure>
                 </div>
               </div>
@@ -192,10 +174,7 @@
                 </div>
                 <div class="card-image">
                   <figure class="image">
-                    <img
-                      src="@/assets/section/2nd-item.jpg"
-                      style="height: 100%"
-                    />
+                    <img src="@/assets/section/2nd-item.jpg" style="height: 100%" />
                   </figure>
                 </div>
               </div>
@@ -214,10 +193,7 @@
                 </div>
                 <div class="card-image">
                   <figure class="image">
-                    <img
-                      src="@/assets/section/3rd-item.jpg"
-                      style="height: 100%"
-                    />
+                    <img src="@/assets/section/3rd-item.jpg" style="height: 100%" />
                   </figure>
                 </div>
               </div>
@@ -226,7 +202,6 @@
         </div>
       </div>
     </div>
-
   </section>
 </template>
 <script>

@@ -1,10 +1,21 @@
+<script>
+import HomeViewFirst from './HomeViewFirst.vue';
+
+export default {
+  name: "HomeView",
+  components: {
+    HomeViewFirst,
+  }
+};
+</script>
+
 <template>
   <div class="bg-img responsive-image">
     <div class="container is-fullhd">
       <section class="hero is-large">
         <div class="hero-body">
           <div class="columns">
-            <div class="column is-8 shadow-text">
+            <div class="column is-6 shadow-text">
               <h3 class="is-size-3 has-text-white">Mūsu komanda piedāvā bezmaksas datora diagnostikas pakalpojumu, lai
                 nodrošinātu, ka jūsu auto vienmēr ir drošībā. <strong class="has-text-white">Pieraksties tagat!</strong>
               </h3>
@@ -12,22 +23,17 @@
             </div>
           </div>
           <div class="columns">
-            <div class="column">
-              <a href="https://wa.me/+37127015660" class="button is-large is-info is-responsive"><i
-                  class="fas fa-mobile-alt p-2"></i>PIETEIKTIES BEZMAKSAS DIAGNOSTIKAI</a>
+            <div class="column is-6">
+              <a href="https://wa.me/+37127015660" class="button is-large is-fullwidth is-info is-responsive">PIETEIKTIES BEZMAKSAS DIAGNOSTIKAI</a>
             </div>
           </div>
         </div>
       </section>
     </div>
   </div>
+  <HomeViewFirst />
 </template>
 
-<script>
-export default {
-  name: "HomeView",
-};
-</script>
 
 <style>
 .bg-img {

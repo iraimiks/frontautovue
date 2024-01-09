@@ -1,3 +1,31 @@
+<script>
+import ScrollToTopButton from './components/ScrollToTopButton.vue';
+export default {
+  data() {
+    return {
+      showMobileMenu: false,
+    }
+  },
+  components: {
+    ScrollToTopButton
+  },
+  methods: {
+    mobilMenu(check) {
+      this.showMobileMenu = !check;
+    },
+    navigateToContact() {
+      const element = document.getElementById('contact');
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
+    },
+  },
+  mounted() {
+    document.title = 'AutoBoost'
+  },
+
+}
+</script>
 <template>
   <nav class="navbar is-black" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
@@ -26,28 +54,27 @@
         </div>
         <div class="navbar-item">
           <div class="buttons">
-            <router-link class="button is-info" to="/oilchange">
-              <strong>Atomātisko kārbu eļļas maiņa</strong>
-            </router-link>
-            <router-link class="button is-info" to="/cooling">
-              <strong>Kondicionieru uzpilde</strong>
-            </router-link>
+
             <router-link class="button is-info" to="/price">
               <strong>Cenu kalkulātors</strong>
             </router-link>
             <router-link class="button is-light" to="/works">
               Paveiktie darbi
             </router-link>
-            <a class="button is-info" href="https://www.facebook.com/autboost.lv/" target="_blank">
+            <a class="button is-info" @click="navigateToContact()">
+              Kontakti
+            </a> <a class="button is-info" href="https://www.facebook.com/autboost.lv/" target="_blank">
               <i class="fab fa-facebook"></i>
             </a>
+            <a href="https://wa.me/+37127015660" class="button is-success"><i class="fab fa-whatsapp"></i></a>
+            <a href="tel:+37127015660" class="button"><i class="fa fa-phone "></i></a>
           </div>
         </div>
       </div>
     </div>
   </nav>
   <router-view />
-  <footer class="footer">
+  <footer class="footer" id="contact">
     <div class="container is-fluid">
       <div class="content is-normal">
         <div class="columns">
@@ -96,29 +123,12 @@
     </div>
   </footer>
   <div class="container is-fluid has-background-black">
-      <div class="is-flex is-justify-content-center p-5 ">
-           <a href="https://cubelligent.com">cubelligent.com</a>
-      </div>
+    <div class="is-flex is-justify-content-center p-5 ">
+      <a href="https://cubelligent.com">cubelligent.com</a>
     </div>
+  </div>
+  <ScrollToTopButton />
 </template>
-<script>
-export default {
-  data() {
-    return {
-      showMobileMenu: false,
-    }
-  },
-  methods: {
-    mobilMenu(check) {
-      this.showMobileMenu = !check;
-    }
-  },
-  mounted() {
-    document.title = 'AutoBoost'
-  },
-
-}
-</script>
 <style lang="scss">
 $dropdown-menu-min-width: 38vw;
 
