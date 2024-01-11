@@ -131,7 +131,7 @@ export default {
 </template>
 <style lang="scss">
 $dropdown-menu-min-width: 38vw;
-
-
+$hero-body-padding-medium: 12rem 4.5rem;
+@import "../node_modules/bulma/sass/utilities/mixins.sass";
 @import "../node_modules/bulma";
 </style>

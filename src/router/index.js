@@ -7,7 +7,7 @@ import MotoView from '../views/MotoView.vue'
 import WorksView from '../views/WorksView.vue'
 import OilChange from '../views/OilChange.vue'
 import ShowItems from '../components/ShowItems.vue'
-
+import RustProtection from '../views/RustProtection.vue'
 const routes = [
   {
     path: '/',
@@ -49,7 +49,11 @@ const routes = [
     name: 'oilchange',
     component: OilChange
   },
-  
+  {
+    path: '/rust',
+    name: 'RustProtection',
+    component: RustProtection
+  }
 ]
 
 const router = createRouter({

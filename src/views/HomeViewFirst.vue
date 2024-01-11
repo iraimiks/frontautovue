@@ -7,7 +7,7 @@
             <div class="columns is-mobile">
                 <div class="column is-10  is-offset-1">
                     <div class="columns">
-                        <div class="column">
+                        <div class="column is-4 is-offset-2">
                             <div class="card">
                                 <div class="card-content">
                                     <div class="media">
@@ -37,7 +37,7 @@
             <div class="columns is-mobile">
                 <div class="column is-10  is-offset-1">
                     <div class="columns">
-                        <div class="column">
+                        <div class="column is-4 is-offset-2">
                             <div class="card">
                                 <div class="card-content">
                                     <div class="media">
@@ -66,7 +66,37 @@
             <div class="columns is-mobile">
                 <div class="column is-10  is-offset-1">
                     <div class="columns">
-                        <div class="column">
+                        <div class="column is-4 is-offset-2">
+                            <div class="card">
+                                <div class="card-content">
+                                    <div class="media">
+                                        <div class="media-content">
+                                            <p class="subtitle is-5">Virsbūvju defektu novēršana automašīnām</p>
+                                        </div>
+                                    </div>
+                                    <div class="card-image">
+                                        <figure class="image">
+                                            <img src="@/assets/rust/mercasol-logo.jpg" />
+                                        </figure>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column content">
+                            <ul>
+                                <li>VIRSBŪVES APKOPE</li>
+                                <li>KOROZIJAS AIZSARDZĪBA</li>
+                                <li>KORPUSA ATJAUNINĀŠANA</li>
+                            </ul>
+                            <a href="/rust">Uzzināt vairāk</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="columns is-mobile">
+                <div class="column is-10  is-offset-1">
+                    <div class="columns">
+                        <div class="column is-4 is-offset-2">
                             <div class="card">
                                 <div class="card-content">
                                     <div class="media">
@@ -100,7 +130,7 @@
             <div class="columns is-mobile">
                 <div class="column is-10  is-offset-1">
                     <div class="columns">
-                        <div class="column">
+                        <div class="column is-4 is-offset-2">
                             <div class="card">
                                 <div class="card-content">
                                     <div class="media">
@@ -132,7 +162,7 @@
             <div class="columns is-mobile">
                 <div class="column is-10  is-offset-1">
                     <div class="columns">
-                        <div class="column">
+                        <div class="column is-4 is-offset-2">
                             <div class="card">
                                 <div class="card-content">
                                     <div class="media">
