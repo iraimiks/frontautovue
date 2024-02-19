@@ -1,5 +1,6 @@
 <script>
 import ScrollToTopButton from './components/ScrollToTopButton.vue';
+import PolicyForm from './components/PolicyForm.vue';
 export default {
   data() {
     return {
@@ -7,7 +8,8 @@ export default {
     }
   },
   components: {
-    ScrollToTopButton
+    ScrollToTopButton,
+    PolicyForm
   },
   methods: {
     mobilMenu(check) {
@@ -74,6 +76,7 @@ export default {
     </div>
   </nav>
   <router-view />
+  <PolicyForm />
   <footer class="footer" id="contact">
     <div class="container is-fluid">
       <div class="content is-normal">
@@ -124,7 +127,8 @@ export default {
   </footer>
   <div class="container is-fluid has-background-black">
     <div class="is-flex is-justify-content-center p-5 ">
-      <a href="https://cubelligent.com">cubelligent.com</a>
+      <router-link class="p-3" to="/policy">Konfidencialitātes politika</router-link>
+      <a class="p-3" href="https://cubelligent.com">cubelligent.com</a>
     </div>
   </div>
   <ScrollToTopButton />

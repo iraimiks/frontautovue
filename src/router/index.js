@@ -8,6 +8,7 @@ import WorksView from '../views/WorksView.vue'
 import OilChange from '../views/OilChange.vue'
 import ShowItems from '../components/ShowItems.vue'
 import RustProtection from '../views/RustProtection.vue'
+import Policy from '../views/Policy.vue'
 const routes = [
   {
     path: '/',
@@ -53,6 +54,11 @@ const routes = [
     path: '/rust',
     name: 'RustProtection',
     component: RustProtection
+  },
+  {
+    path: '/policy',
+    name: 'Policy',
+    component: Policy
   }
 ]
 
